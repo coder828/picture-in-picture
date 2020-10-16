@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Picture in Picture</title>
     <link
       rel="icon"
       type="image/png"
-      href="https://www.google.com/s2/favicons?domain=jacinto.design"
+      href="https://www.google.com/s2/favicons?domain=tesla.com"
     />
     <link
       rel="stylesheet"
@@ -16,6 +16,16 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <script src="script.js"></script>
+    <h1>Picture in Picture</h1>
+
+    <p class="video-wrapper">Video selected: <span id="videoLoaded"></span></p>
+
+    <video id="video" height="360" width="640" controls hidden></video>
+
+    <div class="button-container">
+      <button id="choosePictureButton">Choose Picture</button>
+      <button id="startButton">Open Player</button>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>
